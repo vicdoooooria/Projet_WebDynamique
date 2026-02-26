@@ -1,3 +1,9 @@
+<?php
+echo"
     <footer>
-        <img src="../img/logo_efrei_web_bleu.png">
+        <img src="../img/logo_efrei_web_bleu.png" alt="logo de l efrei">
+        <p>Copyright 2026   Tous droits réservés    <a href="https://github.com/vicdoooooria/Projet_WebDynamique">Dépôt Github</a></p>
+        <input type="button" value="A propos" onclick="../php/aPropos.html">
     </footer>
+    "
+?>

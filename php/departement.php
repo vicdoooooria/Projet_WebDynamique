@@ -6,7 +6,7 @@
     <title>Page d'accueil</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>  <!-- http://localhost/Projet_WebDynamique/accueil.php -->
+<body> 
     <?php include("header.php");?>
     <h1>Page d'accueil</h1>
     <h2>Ingénierie, création, innovation</h2>

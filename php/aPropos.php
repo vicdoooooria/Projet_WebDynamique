@@ -19,6 +19,7 @@
         <ul>
             <li>
                 Victoria ESPINOZA WILCHEZ
+                <img src="../img/1757273834982.jpg" alt="photo de profil de Victoria Espinoza Wilchez">
                 <ul>
                     <li>Étudiante en 1ère année à l'Efrei Paris</li>
                     <li>Passionnée par le développement web et la création de projets innovants</li>
@@ -28,21 +29,24 @@
             </li>
             <li>
                 Julien GOUTELLE
+                <img src="../img/1769955458417.jpg" alt="photo de profil de Julien Goutelle">
                 <ul>
                     <li>Étudiant en 1ère année à l'Efrei Paris</li>
                     <li>Oui !</li>
-                    <li>Profil LinkedIn</li>
-                    <li>Profil GitHub</li>
+                    <li><a href="https://www.linkedin.com/in/julien-goutelle-aa0341373/">Profil LinkedIn</a></li>
+                    <li><a href="https://github.com/Julien-Goutelle">Profil GitHub</a></li>
                 </ul>
             </li>
             <li>
                 Rafaël ISLAM
+                <img src="../img/1757965564687.jpg" alt="photo de profil de Rafaël Islam">
                 <ul>
                     <li>Étudiant en 1ère année à l'Efrei Paris</li>
                     <li>Oui !</li>
-                    <li>Profil LinkedIn</li>
-                    <li>Profil GitHub</li>
+                    <li><a href="https://www.linkedin.com/in/rafa%C3%ABl-islam-52526a32b/">Profil LinkedIn</a></li>
+                    <li><a href="https://github.com/RafaIsl">Profil GitHub</a></li>
                 </ul>
+            </li>
         </ul>
     </section>
     <?php include("footer.php");?>

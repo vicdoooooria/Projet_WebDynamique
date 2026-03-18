@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+    <title>Département</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body> 
+<body>
+
     <?php include("header.php");?>
-    <h1>Page d'accueil</h1>
-    <h2>Ingénierie, création, innovation</h2>
+
+    <h1>Page du Département Informatique</h1>
+    <h2>Présentation générale du Cycle :Description des objectifs pédagogiques et des compétences visées (ex: expertise technique, gestion de projet, innovation)</h2>
     <section>
         <p>
             
@@ -17,12 +19,6 @@
     </section>
     <section>
         <p></p>
-    </section>
-    <section>
-        <img src="../img/efrei_campus.jpg" alt="image du campus principal de l'efrei">
-        <h3>L'EFREI</h3>
-        <p>Petite description !</p>
-        <input type="button" value="Plus d'informations">
     </section>
     <section>
     </section>

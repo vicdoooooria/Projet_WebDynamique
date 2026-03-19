@@ -9,12 +9,21 @@
 <body>
 
     <?php include("header.php");?>
-
+    <section>
     <h1>Page du Département Informatique</h1>
     <h2>Présentation générale du Cycle :Description des objectifs pédagogiques et des compétences visées (ex: expertise technique, gestion de projet, innovation)</h2>
-    <section>
         <p>
             
+        </p>
+    <h2> Programmes par niveau (Détails des formations spécifiques) :</h2>
+    <h3> Programme PEX et Expert</h3>
+    <h4>Bachelor Ingénierie et Numérique (renommée Bachelor Informatique) -- Grade de Licence</h3>
+        <p>
+            Le Bachelor Informatique de l’Efrei forme des développeurs polyvalents capable d’opérer aussi bien en tant que Fullstack, DevOps, Back End ou Front End. Ses diplômés peuvent travailler aussi bien au sein d’une association que d’une grande ESN.
+        </p>
+    <h4>Bachelor Cybersécurité et Réseaux -- Grade Licence</h4>
+        <p>
+            Cette formation prépare les étudiants à concevoir et déployer des stratégies de sécurité des systèmes d’information qui préviennent efficacement les menaces cyber et y répondent de manière adaptée.
         </p>
     </section>
     <section>

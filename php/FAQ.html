@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ - EFREI</title>
+</head>
+<body>
+
+    <h1>FAQ - Admissions EFREI</h1>
+
+    <div>
+        <button onclick="toggle(this)">Quelles sont les voies d'admission à l'EFREI ?</button>
+        <p style="display:none;">Vous pouvez intégrer l'EFREI via Parcoursup, le concours Advance ou en admissions parallèles.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">Comment candidater via Parcoursup ?</button>
+        <p style="display:none;">Il faut créer un dossier sur la plateforme Parcoursup et sélectionner les formations EFREI.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">Qu'est-ce que le concours Puissance Apha ?</button>
+        <p style="display:none;">C'est un concours commun permettant d'intégrer plusieurs écoles d'ingénieurs, dont l'EFREI.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">Quels sont les frais de scolarité ?</button>
+        <p style="display:none;">Les frais varient selon les années et les formations.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">L'EFREI propose-t-elle des formations en alternance ?</button>
+        <p style="display:none;">Oui, certaines formations sont accessibles en alternance.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">Y a-t-il un niveau d'anglais requis ?</button>
+        <p style="display:none;">Un bon niveau d'anglais est recommandé.</p>
+    </div>
+
+    <div>
+        <button onclick="toggle(this)">Quand se déroulent les journées portes ouvertes ?</button>
+        <p style="display:none;">Les dates sont disponibles sur le site officiel.</p>
+    </div>
+
+    <script>
+        function toggle(button) {
+            let answer = button.nextElementSibling;
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -49,6 +49,8 @@
                 </ul>
             </li>
         </ul>
+        <br>
+        <p>Voulez vous en savoir plus sur nous ? N'hésitez pas à nous contacter via notre <a href="form.php">formulaire de contact</a> !</p>
     </section>
     <?php include("footer.php");?>
 </body>

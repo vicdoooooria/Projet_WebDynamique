@@ -2,24 +2,40 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Page d'accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <?php include("header.php");?>
     <section>
-        <h1>Formulaire de contact</h1>
-        <form>
-            <label>Name</label>
-            <input type="text" name="name">
-            <label>Email</label>
-            <input type="email" name="email">
-            <label>Subject</label>
-            <input type="text" name="subject">
-            <label>Message</label>
-            <textarea name="message"></textarea>
-            <input type="button" value="Envoyer">
-        </form>
+        <fieldset>
+            <h1>Formulaire de contact</h1>
+            <form>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Homme</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Femme</label>
+                <input type="radio" name="gender" value="autre">
+                <label for="autre">Autre</label>
+                <label>Nom</label>
+                <input type="text" name="name">
+                <label>Email</label>
+                <input type="email" name="email">
+                <label>Date de contact</label>
+                <input type="date" name="contact_date">
+                <label>Sujet</label>
+                <select name="subject">
+                    <option value="general">Général</option>
+                    <option value="partnership">Partenariat</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Autre</option>
+                </select>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+                <input type="button" value="Envoyer">
+            </form>
+        </fieldset>
     </section>
     <section>
         <h2>Ou sommes nous ?</h2>

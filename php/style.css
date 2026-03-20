@@ -32,7 +32,7 @@ nav{
 
 header {
     color: white;
-    width: 220px; /* Fixed width for left header */
+    width: 220px; /* width gauche */
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -42,13 +42,12 @@ header {
 
 
 main {
-    flex: 1; /* Take remaining space */
+    flex: 1; /* espace */
     background-color: #ecf0f1;
     padding: 20px;
-    overflow-y: auto; /* Scroll if content is long */
+    overflow-y: auto; /* Scroll si long */
 }
 
-    /* Example navigation inside header */
 nav a {
     color: rgb(0, 2, 95);
     text-decoration: none;

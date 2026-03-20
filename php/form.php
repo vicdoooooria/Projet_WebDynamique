@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de contact</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <?php include("header.php");?>
@@ -62,7 +62,7 @@
         <h2>Plan d'accès</h2>
         <h3>Carte</h3>
         <!-- Intégration d'une carte Google Maps -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!">
+        <iframe src="https://maps.app.goo.gl/W2XT84jpnWrep8Fv6">
     </section>
     <?php include("footer.php");?>
 </body>

@@ -11,7 +11,7 @@
     <section>
         <h1>À propos</h1>
         <h2>Rencontre nous !</h2>
-        <img src="../img/campus-efrei.jpg" alt="Campus de l'efrei">
+        <img src="../img/campus-efrei.jpg" alt="Campus de l'efrei" id="campus">
         <p>Nous sommes une équipe de deux étudiants en informatique à l'Efrei Paris, passionnés par le développement web et la création de projets innovants.</p>
     </section>
     <section id="equipe">

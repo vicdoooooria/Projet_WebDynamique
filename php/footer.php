@@ -1,7 +1,9 @@
 <?php
 echo"
     <footer>
-        <img src='../img/logo_efrei_web_bleu.png' alt='logo de lefrei'>
+        <a href='http://www.efrei.fr/'>
+            <img src='../img/image.png' alt='logo de l efrei'>
+        </a>        
         <p>©Copyright 2026  Tous droits réservés    <a href='https://github.com/vicdoooooria/Projet_WebDynamique' alt='Dépôt Github'>Dépôt Github</a></p>
         <input type='button' value='A propos' onclick='window.location.href=\"../php/aPropos.php\"'>
     </footer>

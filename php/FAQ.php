@@ -5,7 +5,7 @@
     <title>FAQ - EFREI</title>
 </head>
 <body>
-
+    <?php include("header.php");?>
     <h1>FAQ - Admissions EFREI</h1>
 
     <div>
@@ -42,7 +42,7 @@
         <button onclick="toggle(this)">Quand se déroulent les journées portes ouvertes ?</button>
         <p style="display:none;">Les dates sont disponibles sur le site officiel.</p>
     </div>
-
+    <?php include("footer.php");?>
     <script>
         function toggle(button) {
             let answer = button.nextElementSibling;
@@ -53,6 +53,5 @@
             }
         }
     </script>
-
 </body>
 </html>

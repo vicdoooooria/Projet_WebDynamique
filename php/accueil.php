@@ -26,7 +26,7 @@
         <p>
             L’Efrei est une grande école d’ingénieurs du numérique reconnue pour son excellence académique et son ouverture internationale. Depuis plus de 90 ans, elle forme des professionnels capables d’innover, de s’adapter et de relever les défis technologiques de demain. Son campus dynamique, ses partenariats industriels et son esprit associatif en font un environnement idéal pour développer son potentiel.
         </p>
-        <input type="button" value="Plus d'informations">
+        <input type="button" value="Plus d'informations" onclick='window.location.href="http://www.efrei.fr/"'>
     </section>
         <h2>Actualités</h2>
         <h3>Découvrez les dernières nouvelles de l'Efrei !</h3>

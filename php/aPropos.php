@@ -14,7 +14,7 @@
         <img src="../img/campus-efrei.jpg" alt="Campus de l'efrei">
         <p>Nous sommes une équipe de deux étudiants en informatique à l'Efrei Paris, passionnés par le développement web et la création de projets innovants.</p>
     </section>
-    <section>
+    <section id="equipe">
         <h1>Notre équipe</h1>
         <p>Voici les membres de notre équipe :</p>
         <ul>

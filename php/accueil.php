@@ -51,17 +51,17 @@
             </ul>
         </div>
     </section>
-    <section>
+    <section class="chiffres-cles">
         <h2>Chiffres clés</h2>
-        <div>
-            <h3>Nombre de diplômes dans le secteur</h3>
-        </div>
-        <div>
-            <h3>Entreprises</h3>
-        </div>
-        <div>
-            <h3>Ecoles partenaires</h3>
-        </div>
+        <ul class="chiffres">
+            <li>Plus de 90 ans d'existence</li>
+            <li>Plus de 2000 étudiants</li>
+            <li>Plus de 1000 diplômés chaque année</li>
+            <li>Un taux d'insertion professionnelle de 95% à 6 mois</li>
+            <li>Plus de 2000 entreprises dans notre reseau</li>
+            <li>36 entreprises marraines en formation</li>
+            <li>10 chaires d'entreprises</li>
+        </ul>
     </section>
     <?php include("footer.php");?>
 

@@ -61,8 +61,8 @@
     <section>
         <h2>Plan d'accès</h2>
         <h3>Carte</h3>
-        <!-- Intégration d'une carte Google Maps -->
-        <iframe src="https://maps.app.goo.gl/W2XT84jpnWrep8Fv6">
+        <!-- carte Google Maps -->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.6423331874075!2d2.361176376000874!3d48.78871817132278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673e24e04a9c3%3A0xc55cb3e676f95321!2sEfrei!5e0!3m2!1sen!2sfr!4v1774339897045!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <?php include("footer.php");?>
 </body>

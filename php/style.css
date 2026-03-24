@@ -242,3 +242,30 @@ h4 + p:hover {
 .tab-content.active {
     display: block;
 }
+
+.chiffres-cles ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.chiffres-cles li {
+    background-color: rgb(126, 181, 240);
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-left: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.chiffres-cles li:hover {
+    background-color: rgb(177, 239, 255);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-4px);
+    font-weight: bold;
+}

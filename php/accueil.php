@@ -12,6 +12,11 @@
         <h1 id="titre-page">Page d'accueil</h1>
         <h2 id="sous-titre">Ingénierie, création, innovation</h2>
         <p>"Intégrer l’Efrei, c’est rejoindre une école engagée dans la révolution numérique, qui vise l’excellence et qui met au premier plan l’expérience étudiante !" - Frédéric Meunier, Directeur général de l’Efrei</p>
+        <ul>
+            <li>1ère ÉCOLE PRIVÉE D’INGÉNIEURS INFORMATIQUE (L’Étudiant)</li>
+            <li>2ème ÉCOLE D’INGÉNIEURS PRIVÉE (L’Usine Nouvelle)</li>
+            <li>3ème ÉCOLE D’INGÉNIEURS POST-BAC (Essentiel du Sup’)</li>
+        </ul>
     </section>
     <section>
         <p>
@@ -80,11 +85,13 @@
     <section class="chiffres-cles">
         <h2>Chiffres clés</h2>
         <ul class="chiffres">
-            <li>Plus de 90 ans d'existence</li>
+            <li>Ouverte depuis 1936</li>
             <li>Plus de 2000 étudiants</li>
+            <li>16000 alumni</li>
             <li>Plus de 1000 diplômés chaque année</li>
             <li>Un taux d'insertion professionnelle de 95% à 6 mois</li>
-            <li>Plus de 2000 entreprises dans notre reseau</li>
+            <li>93 universités partenaires</li>
+            <li>Plus de 2000 entreprises dans notre réseau</li>
             <li>36 entreprises marraines en formation</li>
             <li>10 chaires d'entreprises</li>
         </ul>

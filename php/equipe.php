@@ -62,7 +62,7 @@
                     <option value="Salle 202">Salle 202</option>
                 </select>
             </div>
-            <button type="submit" class="submit-btn">Réserver</button>
+            <input type="button" class="submit-btn" value="Réserver">
         </form>
     </div>
 </section>

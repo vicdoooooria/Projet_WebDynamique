@@ -10,9 +10,7 @@
 
     <?php include("header.php");?>
     <?php include("formations.php");?>
-    <section>
-        <p></p>
-    </section>
+    <?php include("equipe.php");?>
     <section>
         <h2>Avis des étudiants</h2>
     </section>

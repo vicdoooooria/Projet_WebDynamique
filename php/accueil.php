@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" version="1.0">
+    <script type="text/javascript" src="../permanence.js"></script>
 </head>
 <body>  <!-- http://localhost/Projet_WebDynamique/php/accueil.php -->
     <?php include("header.php");?>
@@ -38,32 +39,29 @@
     <section>
         <h2>Actualités</h2>
         <h3>Découvrez les dernières nouvelles de 2026 de l'Efrei !</h3>
-        <ul>
-            <li>
-                Efrei Aides Humanitaires : au coeur de la solidarité [Rename] <small>19 MARS 2026</small>
-            </li>
-            <li>
-                Expo photo : l'innovation n'a pas de genre <small>12 MARS 2026</small>
-            </li>
-            <li>
-                Culture et sport à Villejuif : les bons plans étudiants <small>19 FEVRIER 2026</small>
-            </li>
-            <li>
-                Portfolia : créez votre identité professionnelle [Projet étudiant] <small>10 FEVRIER 2026</small>
-            </li>
-            <li>
-                Campagne BDE : propose ta liste ! <small>27 JANVIER 2026</small>
-            </li>
-            <li>
-                Les « micro-agressions » : un phénomène qui nous concerne tous <small>26 JANVIER 2026</small>
-            </li>
-            <li>
-                Bien-manger : nos options saines, savoureuses… et accessibles ! <small>14 JANVIER 2026</small>
-            </li>
-            <li>
-                Certifications professionnelles, passez par la Learning XP <small>5 JANVIER 2026</small>
-            </li>
-        </ul>
+        <div class="carousel-wrapper">
+            <ul class="carousel-track" id="carouselTrack">
+
+
+                        <li class="carousel-item">Efrei Aides Humanitaires : au coeur de la solidarité <small>19 MARS 2026</small></li>
+                        <li class="carousel-item">Expo photo : l'innovation n'a pas de genre <small>12 MARS 2026</small></li>
+                        <li class="carousel-item">Culture et sport à Villejuif : les bons plans étudiants <small>19 FÉVRIER 2026</small></li>
+                        <li class="carousel-item">Portfolia : créez votre identité professionnelle <small>10 FÉVRIER 2026</small></li>
+                        <li class="carousel-item">Campagne BDE : propose ta liste ! <small>27 JANVIER 2026</small></li>
+                        <li class="carousel-item">Les « micro-agressions » : un phénomène qui nous concerne tous <small>26 JANVIER 2026</small></li>
+                        <li class="carousel-item">Bien-manger : nos options saines, savoureuses… et accessibles ! <small>14 JANVIER 2026</small></li>
+                        <li class="carousel-item">Certifications professionnelles, passez par la Learning XP <small>5 JANVIER 2026</small></li>
+            </ul>
+            <div class="carousel-controls">
+                <button onclick="moveCarousel(-1)">&#8592;</button>
+                <button onclick="moveCarousel(1)">&#8594;</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots">
+                <span class="active" onclick="goToSlide(0)"></span>
+                <span onclick="goToSlide(1)"></span>
+            </div>
+        </div>
+    </section>
     </section>
     <section>
         <h2>Avis des étudiants</h2>
@@ -97,7 +95,5 @@
         </ul>
     </section>
     <?php include("footer.php");?>
-
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>

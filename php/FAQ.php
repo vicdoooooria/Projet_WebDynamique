@@ -71,7 +71,7 @@
                 answer.style.display = "none";
             }
         }
-        function showTab(tabId) {
+        function showTab(tabId, element) {
             let contents = document.querySelectorAll('.tab-content');
             let buttons = document.querySelectorAll('.tab-btn');
 

@@ -1,11 +1,27 @@
 <?php ?>
 <section>
     <div class="reservation-container">
+        <form  method='POST' action='departement.php'>
         <h1>Réserver une permanence</h1>
         <form id="reservationForm">
             <div class="form-group">
                 <label for="nom">Nom et Prénom</label>
                 <input type="text" id="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <label for="role">Rôle</label>
+                <select id="role" required>
+                    <option value="">Sélectionnez un rôle</option>
+                    <option value="élève">Élève</option>
+                    <option value="professeur">Professeur</option>
+                    <option value="administrateur">Administrateur</option>
+                    <option value="surveillant">Surveillant</option>
+                </select>
+            </div>
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
@@ -15,13 +31,13 @@
                 <label for="classe">Classe</label>
                 <select id="classe" required>
                     <option value="">Sélectionnez une classe</option>
-                    <option value="6ème">6ème</option>
-                    <option value="5ème">5ème</option>
-                    <option value="4ème">4ème</option>
-                    <option value="3ème">3ème</option>
-                    <option value="2nde">2nde</option>
-                    <option value="1ère">1ère</option>
-                    <option value="Terminale">Terminale</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                    <option value="B3">B3</option>
+                    <option value="P1">P1</option>
+                    <option value="P2">P2</option>
+                    <option value="ING1">ING1</option>
+                    <option value="ING2">ING2</option>
                 </select>
             </div>
             <div class="form-group">
@@ -29,10 +45,10 @@
                 <select id="matiere" required>
                     <option value="">Sélectionnez une matière</option>
                     <option value="Mathématiques">Mathématiques</option>
-                    <option value="Français">Français</option>
+                    <option value="Structures de données avancées">Structures de données avancées</option>
                     <option value="Anglais">Anglais</option>
-                    <option value="Histoire-Géographie">Histoire-Géographie</option>
-                    <option value="Sciences">Sciences</option>
+                    <option value="Réseaux">Réseaux</option>
+                    <option value="Base de Données">Base de Données</option>
                 </select>
             </div>
             <div class="form-group">

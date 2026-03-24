@@ -33,7 +33,10 @@
                 <img src="../img/1769955458417.jpg" alt="photo de profil de Julien Goutelle">
                 <ul>
                     <li>Étudiant en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
-                    <li>Oui !</li>
+                    <li>Actuellement étudiant à l'Efrei dans un Bachelor en Science du Numérique et de l'Ingénierie.
+                        J'ai acquis plusieurs compétences théoriques et pratiques : C#, SQL, Javascript, Debian, Javascript.
+                        Intéressé par la nouveauté et la découverte j'aime pratiquer et approfondir mes connaissances dans l'informatique.
+                        Dans un avenir professionnel mes centres d'intérêts penchent vers la recherche dans le domaine de l'IA.</li>
                     <li><a href="https://www.linkedin.com/in/julien-goutelle-aa0341373/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/Julien-Goutelle">Profil GitHub</a></li>
                 </ul>

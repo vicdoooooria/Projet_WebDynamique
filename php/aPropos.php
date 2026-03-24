@@ -11,7 +11,7 @@
     <section>
         <h1>À propos</h1>
         <h2>Rencontre nous !</h2>
-        <img src="../img/campus-efrei.jpg" alt="Campus de l'efrei" id="campus">
+        <img src="../img/efrei_campus.jpg" alt="Campus de l'efrei" id="campus">
         <p>Nous sommes une équipe de deux étudiants en informatique à l'Efrei Paris, passionnés par le développement web et la création de projets innovants.</p>
     </section>
     <section id="equipe">
@@ -22,8 +22,8 @@
                 Victoria ESPINOZA WILCHEZ
                 <img src="../img/1757273834982.jpg" alt="photo de profil de Victoria Espinoza Wilchez">
                 <ul>
-                    <li>Étudiante en 1ère année à l'Efrei Paris</li>
-                    <li>Passionnée par le développement web et la création de projets innovants</li>
+                    <li>Étudiante en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
+                    <li>Passionnée par le développement web et la création de projets innovants. J’espère pouvoir développer mes compétences dans ce domaine au sein de l’Efrei.</li>
                     <li><a href="https://www.linkedin.com/in/victoria-espinoza-wilchez-0a9219383/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/vicdoooooria">Profil GitHub</a></li>
                 </ul>
@@ -32,7 +32,7 @@
                 Julien GOUTELLE
                 <img src="../img/1769955458417.jpg" alt="photo de profil de Julien Goutelle">
                 <ul>
-                    <li>Étudiant en 1ère année à l'Efrei Paris</li>
+                    <li>Étudiant en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
                     <li>Oui !</li>
                     <li><a href="https://www.linkedin.com/in/julien-goutelle-aa0341373/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/Julien-Goutelle">Profil GitHub</a></li>
@@ -42,7 +42,7 @@
                 Rafaël ISLAM
                 <img src="../img/1757965564687.jpg" alt="photo de profil de Rafaël Islam">
                 <ul>
-                    <li>Étudiant en 1ère année à l'Efrei Paris</li>
+                    <li>Étudiant en 1ère année de Bachelor Ingénierie et Numériqueà l'Efrei Paris</li>
                     <li>Oui !</li>
                     <li><a href="https://www.linkedin.com/in/rafa%C3%ABl-islam-52526a32b/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/RafaIsl">Profil GitHub</a></li>

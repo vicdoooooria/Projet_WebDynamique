@@ -12,7 +12,7 @@
     <section id="accueil">    
         <h1 id="titre-page">Page d'accueil</h1>
         <h2 id="sous-titre">Ingénierie, création, innovation</h2>
-        <p>"Intégrer l’Efrei, c’est rejoindre une école engagée dans la révolution numérique, qui vise l’excellence et qui met au premier plan l’expérience étudiante !" - Frédéric Meunier, Directeur général de l’Efrei</p>
+        <p class="citation">"Intégrer l’Efrei, c’est rejoindre une école engagée dans la révolution numérique, qui vise l’excellence et qui met au premier plan l’expérience étudiante !" - Frédéric Meunier, Directeur général de l’Efrei</p>
         <ul>
             <li>1ère ÉCOLE PRIVÉE D’INGÉNIEURS INFORMATIQUE (L’Étudiant)</li>
             <li>2ème ÉCOLE D’INGÉNIEURS PRIVÉE (L’Usine Nouvelle)</li>

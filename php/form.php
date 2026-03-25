@@ -38,7 +38,7 @@
         </fieldset>
     </section>
     <section>
-        <h2>Ou sommes nous ?</h2>
+        <h2>Où sommes nous ?</h2>
         <h3>Trouvez nous dans deux villes en France !</h3>
         <ul class="localisation">
             <li>

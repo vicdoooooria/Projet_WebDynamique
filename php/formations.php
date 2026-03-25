@@ -1,11 +1,12 @@
 <?php ?>
 
-    <div class="table-des-matieres">
+    <section classe="table-des-matieres">
     <ul>
         <li><a href="#section1">Présentation Générale</a></li>
         <li><a href="#section2">Programme Pex et Expert</a></li>
         <li><a href="#section3">Programme Grande Ecole</a></li>
     </ul>
+    </section>
     <section>
     <h1>Page du Département Informatique</h1>
     <h2 id="section1">Présentation Générale</h2>

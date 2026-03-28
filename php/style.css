@@ -31,9 +31,30 @@ header {
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    position: sticky;
     top: 0;
     align-self: flex-start;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+}
+
+#menu-button {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+    background-color: rgb(0, 2, 95) !important;
+    color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+#menu-button:hover {
+    background-color: rgb(79, 108, 255) !important;
 }
 
 .classement ul{
@@ -501,4 +522,33 @@ h4 + p:hover {
 .table-des-matieres a.active {
     color: #ff6600; /* Couleur pour la section active */
     font-weight: 600;
+}
+
+.hidden {
+    display: none !important;
+}
+
+body > section,
+body > main,
+body > div {
+    margin-left: 330px;
+}
+
+body {
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    flex-shrink: 0;
+    width: 20%;
+}
+body > *:not(header):not(#menu-button) {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
 }

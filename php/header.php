@@ -1,10 +1,10 @@
 <?php 
-echo "   
-    <header>
+echo "
+    <input type='button' value='☰ Menu' class='button1' id='menu-button'>
+    <header id='header' class='hidden'>
         <a href='http://www.efrei.fr/'>
             <img src='../img/image.png' alt='logo de l efrei'>
         </a>
-        <input type='button' value='☰ Menu' class='button1' id='menu-button' onclick='toggleMenu()'>
         <nav>
             <b>
             <a href='../php/accueil.php' id='un'>Page d'accueil</a>

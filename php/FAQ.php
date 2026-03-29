@@ -62,6 +62,13 @@
 
     </div>
 
+    <h2> Efrei Chatbot </h2>
+
+    <div id="chatbot"> </div>
+    <input type="text" id="userInput">
+    <button onclick="sendMessage()"> Envoyer </button>
+
+
     <?php include("footer.php");?>
     <script>
         function toggle(button) {
@@ -82,6 +89,7 @@
             document.getElementById(tabId).classList.add('active');
             element.classList.add('active');
         }
+        
     </script>
 </body>
 </html>

@@ -301,7 +301,7 @@ h4 + p:hover {
     margin-bottom: 20px;
 }
 
-.tab button {
+.tabs button {
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
@@ -310,7 +310,7 @@ h4 + p:hover {
     margin-right: 10px;
 }
 
-.tab button.active {
+.tabs button.active {
     background: #0b2a5b;
     color: white;
 }

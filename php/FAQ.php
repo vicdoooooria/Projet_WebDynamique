@@ -64,7 +64,7 @@
 
     <h2> Efrei Chatbot </h2>
 
-    <div id="chatbot"> </div>
+    <div id="chatbox"> </div>
     <input type="text" id="userInput">
     <button onclick="sendMessage()"> Envoyer </button>
 

@@ -30,3 +30,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+async function sendMessage() {
+    let input = document.getElementById("userInput");
+    let chatbox = document.getElementById("chabox");
+
+    let message = input.ariaValueMax.toLowerCase();
+
+    chatbox.innerHTML += "<p><b> Toi :</b> " + message + "</p>";
+
+    const response = await fetch("faq.json");
+    const data = await response.json;
+
+    let found = false;
+
+    data.forEach(item => {
+        if (message.includes(item.question)) {
+            chatbox.innerHTML += "<p><b> Bot : </b> " + item.answer + "</p>";
+            found = true;
+        }
+    });
+
+    if (!found) {
+        chatbox.innerHTML += "<p><b> Bot : </b>  + Désolé, je ne comprends pas votre question."+ "</p>";
+    }
+
+    input.value = "";
+}

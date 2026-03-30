@@ -385,6 +385,66 @@ h4 + p:hover {
     font-size: 0.8rem;
 }
 
+.avis ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.classement ul li {
+    flex: 1;
+    min-width: 250px;
+    background: #f5defe;
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid #a95cc0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    font-size: 0.9rem;
+    font-style: italic;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.classement ul li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.13);
+}
+
+.classement ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.localisation ul li{
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 4px solid #1a237e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    font-size: 0.9rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.localisation ul li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.13);
+    font-size: 14px;
+}
+
+.classement ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
 .citation{
     font-style: italic;
     color: #283593;

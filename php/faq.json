@@ -1,0 +1,18 @@
+[
+    {
+        "question": "admissions",
+        "answer": "Vous pouvez intégrer l'Efrei par le biais d'un concours ou Parcoursup."
+    },
+    {
+        "question": "concours",
+        "answer": "Pour intégrer l'Efrei, vous devez passer par le concours Puissance Alpha."
+    },
+    {
+        "question": "anglais",
+        "answer": "Posséder un bon niveau d'anglais est recommandé."
+    },
+    {
+        "question": "alternance",
+        "answer": "L'école propose des formations qui sont en alternance, à partir de la troisième année."
+    }
+]

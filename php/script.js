@@ -33,14 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function sendMessage() {
     let input = document.getElementById("userInput");
-    let chatbox = document.getElementById("chabox");
+    let chatbox = document.getElementById("chatbox");
 
-    let message = input.ariaValueMax.toLowerCase();
+    let message = input.value.toLowerCase();
 
     chatbox.innerHTML += "<p><b> Toi :</b> " + message + "</p>";
 
     const response = await fetch("faq.json");
-    const data = await response.json;
+    const data = await response.json();
 
     let found = false;
 
@@ -52,7 +52,7 @@ async function sendMessage() {
     });
 
     if (!found) {
-        chatbox.innerHTML += "<p><b> Bot : </b>  + Désolé, je ne comprends pas votre question."+ "</p>";
+        chatbox.innerHTML += "<p><b> Bot : </b> Désolé, je ne comprends pas votre question."+ "</p>";
     }
 
     input.value = "";

@@ -534,21 +534,3 @@ body > div {
     margin-left: 330px;
 }
 
-body {
-    display: flex;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    flex-shrink: 0;
-    width: 20%;
-}
-body > *:not(header):not(#menu-button) {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
-}

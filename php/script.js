@@ -2,7 +2,12 @@
 let currentSlide = 0;
 const track = document.getElementById('carouselTrack');
 const dots = document.querySelectorAll('#carouselDots span');
-const total = track.children.length;
+
+let total = 0;
+if (track) {
+    total = track.children.length;
+}
+
  
 function moveCarousel(dir) {
     currentSlide = (currentSlide + dir + total) % total;
@@ -15,6 +20,9 @@ function goToSlide(index) {
 }
  
 function updateCarousel() {
+    if (!track) {
+        return;
+    }
     track.style.transform = `translateX(-${currentSlide * 100}%)`;
     dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
 }
@@ -30,22 +38,35 @@ async function sendMessage() {
 
     let message = input.value.toLowerCase();
 
-    chatbox.innerHTML += "<p><b> Toi :</b> " + message + "</p>";
+    chatbox.innerHTML += "<p><b>Toi :</b> " + message + "</p>";
 
     const response = await fetch("faq.json");
-    const data = await response.json;
+    const data = await response.json();
+
+    console.log(data);
 
     let found = false;
 
     data.forEach(item => {
-        if (message.includes(item.question)) {
-            chatbox.innerHTML += "<p><b> Bot : </b> " + item.answer + "</p>";
-            found = true;
+        if (Array.isArray(item.question)) {
+            // cas où question est un tableau
+            item.question.forEach(q => {
+                if (message.includes(q)) {
+                    chatbox.innerHTML += "<p><b>Bot :</b> " + item.answer + "</p>";
+                    found = true;
+                }
+            });
+        } else {
+            // cas où question est une string
+            if (message.includes(item.question)) {
+                chatbox.innerHTML += "<p><b>Bot :</b> " + item.answer + "</p>";
+                found = true;
+            }
         }
     });
 
     if (!found) {
-        chatbox.innerHTML += "<p><b> Bot : </b>  + Désolé, je ne comprends pas votre question."+ "</p>";
+        chatbox.innerHTML += "<p><b>Bot :</b> Désolé, je ne comprends pas votre question.</p>";
     }
 
     input.value = "";

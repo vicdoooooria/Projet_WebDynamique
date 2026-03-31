@@ -27,6 +27,7 @@
         "question" : "portes ouvertes",
         "answer" : "L'Efrei organise des journées portes ouvertes pour permettre aux futurs étudiants de découvrir l'école et ses formations. Veuillez consulter le site officiel de l'Efrei pour connaître les dates et les modalités d'inscription aux journées portes ouvertes."
     },
+
     {
         "question" : ["bonjour", "salut", "hello", "hey"],
         "answer" : "Bonjour ! Comment puis-je vous aider aujourd'hui ?"

@@ -2,7 +2,7 @@
         <fieldset class="reservation-container">
             <h1>Formulaire de contact</h1>
             <form id="contactForm" method="POST" action="form.php">
-                <div class="form-group">
+                <div class="form-group" id="radio">
                     <label>Genre</label>
                         <label for="male">HOMME</label>
                         <input type="radio" id="male" name="gender" value="male">

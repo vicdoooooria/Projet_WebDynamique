@@ -13,11 +13,13 @@
         <h1 id="titre-page">Page d'accueil</h1>
         <h2 id="sous-titre">Ingénierie, création, innovation</h2>
         <p class="citation">"Intégrer l’Efrei, c’est rejoindre une école engagée dans la révolution numérique, qui vise l’excellence et qui met au premier plan l’expérience étudiante !" - Frédéric Meunier, Directeur général de l’Efrei</p>
-        <ul class="classement">
-            <li>1ère ÉCOLE PRIVÉE D’INGÉNIEURS INFORMATIQUE (L’Étudiant)</li>
-            <li>2ème ÉCOLE D’INGÉNIEURS PRIVÉE (L’Usine Nouvelle)</li>
-            <li>3ème ÉCOLE D’INGÉNIEURS POST-BAC (Essentiel du Sup’)</li>
-        </ul>
+        <div class="classement">
+            <ul>
+                <li>1ère ÉCOLE PRIVÉE D’INGÉNIEURS INFORMATIQUE (L’Étudiant)</li>
+                <li>2ème ÉCOLE D’INGÉNIEURS PRIVÉE (L’Usine Nouvelle)</li>
+                <li>3ème ÉCOLE D’INGÉNIEURS POST-BAC (Essentiel du Sup’)</li>
+            </ul>
+        </div>
     </section>
     <section>
         <p>
@@ -41,16 +43,16 @@
         <h3>Découvrez les dernières nouvelles de 2026 de l'Efrei !</h3>
         <div class="carousel-wrapper">
             <ul class="carousel-track" id="carouselTrack">
-
-
-                        <li class="carousel-item">Efrei Aides Humanitaires : au coeur de la solidarité <small>19 MARS 2026</small></li>
-                        <li class="carousel-item">Expo photo : l'innovation n'a pas de genre <small>12 MARS 2026</small></li>
-                        <li class="carousel-item">Culture et sport à Villejuif : les bons plans étudiants <small>19 FÉVRIER 2026</small></li>
-                        <li class="carousel-item">Portfolia : créez votre identité professionnelle <small>10 FÉVRIER 2026</small></li>
-                        <li class="carousel-item">Campagne BDE : propose ta liste ! <small>27 JANVIER 2026</small></li>
-                        <li class="carousel-item">Les « micro-agressions » : un phénomène qui nous concerne tous <small>26 JANVIER 2026</small></li>
-                        <li class="carousel-item">Bien-manger : nos options saines, savoureuses… et accessibles ! <small>14 JANVIER 2026</small></li>
-                        <li class="carousel-item">Certifications professionnelles, passez par la Learning XP <small>5 JANVIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/69c6c29ff3ad10e3fb6876a0">Mariam : tu manges quoi au CROUS ? [projet étudiant] </a><small>30 MARS 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/69c25095405f2424674c5543">Bye Bye Clash 👋 </a><small>24 MARS 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/69bc1130379ce0fefbfa637b">Efrei Aides Humanitaires : au coeur de la solidarité </a><small>19 MARS 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/69b12af8158fc44a86c869e0">Expo photo : l'innovation n'a pas de genre </a><small>12 MARS 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/6986009b680acc46ac04c5c5">Culture et sport à Villejuif : les bons plans étudiants </a><small>19 FÉVRIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/698aef7b66b8f297d9141045">Portfolia : créez votre identité professionnelle </a><small>10 FÉVRIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/6968c9968afe2ae990edb2ef">Campagne BDE : propose ta liste ! </a><small>27 JANVIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/6968c9f38afe2ae990edb343">Les « micro-agressions » : un phénomène qui nous concerne tous </a><small>26 JANVIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/69416070a81333ecb3710e13">Bien-manger : nos options saines, savoureuses… et accessibles ! </a><small>14 JANVIER 2026</small></li>
+                        <li class="carousel-item"><a href="https://www.myefrei.fr/portal/common/news/695b7fad990a251ecda24a6f">Certifications professionnelles, passez par la Learning XP </a><small>5 JANVIER 2026</small></li>
             </ul>
             <div class="carousel-controls">
                 <button onclick="moveCarousel(-1)">&#8592;</button>

@@ -426,6 +426,23 @@ h4 + p:hover {
     padding: 0;
 }
 
+.membre {
+    flex: 1;
+    min-width: 250px;
+    background: #f0f4ff;
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid #5c6bc0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    font-size: 0.9rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.membre:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.13);
+}
+
 .localisation ul li{
     flex: 1;
     min-width: 250px;
@@ -442,14 +459,6 @@ h4 + p:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.13);
     font-size: 14px;
-}
-
-.classement ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
 }
 
 .citation{

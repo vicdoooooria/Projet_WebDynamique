@@ -18,8 +18,8 @@
     <section id="equipe">
         <h1>Notre équipe</h1>
         <p>Voici les membres de notre équipe :</p>
-        <ul class="equipe">
-            <li>
+        <ul>
+            <li class="membre">
                 Victoria ESPINOZA WILCHEZ
                 <img src="../img/1757273834982.jpg" alt="photo de profil de Victoria Espinoza Wilchez">
                 <ul class="infos">
@@ -33,7 +33,7 @@
                     <li><a href="https://github.com/vicdoooooria">Profil GitHub</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="membre">
                 Julien GOUTELLE
                 <img src="../img/1769955458417.jpg" alt="photo de profil de Julien Goutelle">
                 <ul class="infos">
@@ -46,12 +46,12 @@
                     <li><a href="https://github.com/Julien-Goutelle">Profil GitHub</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="membre">
                 Rafaël ISLAM
                 <img src="../img/1757965564687.jpg" alt="photo de profil de Rafaël Islam">
                 <ul class="infos">
                     <li>Étudiant en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
-                    <li>Oui !</li>
+                    <li>Passionné par les technologes numériques et l‘informatique, curieux, rigoureux et avide de connaissances. Je développe mes compétences à travers des projets concrets et une formation exigente.</li>
                     <li><a href="https://www.linkedin.com/in/rafa%C3%ABl-islam-52526a32b/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/RafaIsl">Profil GitHub</a></li>
                 </ul>

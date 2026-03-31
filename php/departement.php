@@ -29,8 +29,8 @@
     ?>
     <?php include ("message.php");?>
     <?php include("basededonne.php");?>
-    <input type="button" value="Réinitialiser la base" onclick="resetDatabase()">
-    </section>
+    <input type="button" value="Réinitialiser la base">
     <?php include("footer.php");?>
+    </section>
 </body>
 </html>

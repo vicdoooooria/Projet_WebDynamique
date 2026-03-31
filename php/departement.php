@@ -12,6 +12,7 @@
     <?php include("header.php");?>
     <?php include("formations.php");?>
     <?php include("permanence.php");?>
+    <section>
     <?php
         if(isset($_POST['nom'])){   
             echo '<h2> Résumé de votre permanence</h2>' ;
@@ -26,10 +27,10 @@
             echo '<p><strong>Salle :</strong> '.$_POST['salle'].'</p>';
         }
     ?>
-    <section>
     <?php include ("message.php");?>
+    <?php include("basededonne.php");?>
+    <input type="button" name="reset" value="Réinitialiser la base">
     </section>
-    <?php include("basededonnee");?>
     <?php include("footer.php");?>
 
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

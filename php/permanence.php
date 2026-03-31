@@ -6,7 +6,7 @@
         <form id="reservationForm">
             <div class="form-group">
                 <label for="nom">Nom et Prénom</label>
-                <input type="text" id="nom" required>
+                <input type="text" id="nom" name="nom" required>
             </div>
             <div class="form-group">
                 <label for="password">Mot de passe</label>
@@ -14,7 +14,7 @@
             </div>
             <div class="form-group">
                 <label for="role">Rôle</label>
-                <select id="role" required>
+                <select id="role" name="role" required>
                     <option value="">Sélectionnez un rôle</option>
                     <option value="élève">Élève</option>
                     <option value="professeur">Professeur</option>
@@ -25,11 +25,11 @@
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="classe">Classe</label>
-                <select id="classe" required>
+                <select id="classe" name="classe" required>
                     <option value="">Sélectionnez une classe</option>
                     <option value="B1">B1</option>
                     <option value="B2">B2</option>
@@ -42,7 +42,7 @@
             </div>
             <div class="form-group">
                 <label for="matiere">Matière</label>
-                <select id="matiere" required>
+                <select id="matiere" name="matiere" required>
                     <option value="">Sélectionnez une matière</option>
                     <option value="Mathématiques">Mathématiques</option>
                     <option value="Structures de données avancées">Structures de données avancées</option>
@@ -53,11 +53,11 @@
             </div>
             <div class="form-group">
                 <label for="date">Date</label>
-                <input type="date" id="date" required>
+                <input type="date" id="date" name="date" required>
             </div>
             <div class="form-group">
                 <label for="heure">Heure</label>
-                <select id="heure" required>
+                <select id="heure" name="heure" required>
                     <option value="">Sélectionnez une heure</option>
                     <option value="8h-9h">8h-9h</option>
                     <option value="9h-10h">9h-10h</option>
@@ -70,7 +70,7 @@
             </div>
             <div class="form-group">
                 <label for="salle">Salle</label>
-                <select id="salle" required>
+                <select id="salle" name="salle" required>
                     <option value="">Sélectionnez une salle</option>
                     <option value="Salle 101">Salle 101</option>
                     <option value="Salle 102">Salle 102</option>

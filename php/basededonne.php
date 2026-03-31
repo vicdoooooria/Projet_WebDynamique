@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 // 2. Création de la base de données
 $sql_db = "CREATE DATABASE IF NOT EXISTS $dbname";
 if ($conn->query($sql_db) === TRUE) {
-    echo "Base de données personnelle prête !<br>";
+    echo "<p>Base de données personnelle prête !</p><br>";
 }
 
 // 3. Sélection de la base pour la suite
@@ -37,7 +37,7 @@ $sql_table = "CREATE TABLE IF NOT EXISTS informations_personnelles (
 )";
 
 if ($conn->query($sql_table) === TRUE) {
-    echo "Table 'Informations Personnelles' prête !<br>";
+    echo "<p>Table 'Informations Personnelles' prête !</p><br>";
 }
 
 // 5. Remplissage (Insertion de données de test)

@@ -29,10 +29,8 @@
     ?>
     <?php include ("message.php");?>
     <?php include("basededonne.php");?>
-    <input type="button" name="reset" value="Réinitialiser la base">
+    <input type="button" value="Réinitialiser la base" onclick="resetDatabase()">
     </section>
     <?php include("footer.php");?>
-
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>

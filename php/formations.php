@@ -70,35 +70,33 @@
 
 <script>
         // Défilement fluide
-document.querySelectorAll('.table-des-matieres a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetSection = document.querySelector(targetId);
-        targetSection.scrollIntoView({ behavior: 'smooth' });
-    });
-});
-
-// Mettre en évidence la section active
-window.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('h2');
-    let currentSection = '';
-
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        if (window.scrollY >= sectionTop - 100) {
-            currentSection = section.getAttribute('id');
-        }
+    document.querySelectorAll('.table-des-matieres a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        });
     });
 
-    document.querySelectorAll('.table-des-matieres a').forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${currentSection}`) {
-            link.classList.add('active');
-        }
+    // Mettre en évidence la section active
+    window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('h2');
+        let currentSection = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            if (window.scrollY >= sectionTop - 100) {
+                currentSection = section.getAttribute('id');
+            }
+        });
+
+        document.querySelectorAll('.table-des-matieres a').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${currentSection}`) {
+                link.classList.add('active');
+            }
+        });
     });
-});
 </script>
-    
-</div>
 </section>

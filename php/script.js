@@ -19,10 +19,7 @@ function updateCarousel() {
     dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
 }
 
-
-const btn = document.getElementById("menu-button");
-const header = document.getElementById("header");
-
-btn.addEventListener("click", () => {
-  header.classList.toggle("hidden");
-}); // refaire la fonction
+function toggleMenu() {
+    const header = document.getElementById('header');
+    header.classList.toggle('hidden');
+}

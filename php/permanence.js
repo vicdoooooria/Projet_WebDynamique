@@ -27,3 +27,20 @@ document.getElementById('reservationForm').addEventListener('submit', function(e
     // Réinitialiser le formulaire
     this.reset();
 });
+
+function resetDatabase() {
+    if (confirm("Êtes-vous sûr de vouloir réinitialiser la base de données ?")) {
+        console.log("Réinitialisation de la base de données...");
+        fetch('reset_database.php', {
+            method: 'POST'
+        })
+        .then(response => response.text())
+        .then(data => {
+            alert('Base de données réinitialisée avec succès.');
+        })
+        .catch(error => {
+            console.error('Erreur:', error);
+            alert('Une erreur est survenue lors de la réinitialisation de la base de données.');
+        });
+    }
+};

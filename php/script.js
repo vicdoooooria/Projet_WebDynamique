@@ -1,30 +1,61 @@
-
 let currentSlide = 0;
-const track = document.getElementById('carouselTrack');
-const dots = document.querySelectorAll('#carouselDots span');
+const ITEMS_PER_SLIDE = 1;
+let track, dots, total, totalSlides;
 
-let total = 0;
-if (track) {
-    total = track.children.length;
-}
+let currentSlideDept = 0;
+let trackDept, totalDept;
 
- 
+document.addEventListener("DOMContentLoaded", () => {
+
+    // accueil
+    track = document.getElementById('carouselTrack');
+    const dotsContainer = document.getElementById('carouselDots');
+
+    if (track && dotsContainer) {
+        total = track.children.length;
+        totalSlides = Math.ceil(total / ITEMS_PER_SLIDE);
+
+        // dots dynamiques
+        dotsContainer.innerHTML = '';
+        for (let i = 0; i < totalSlides; i++) {
+            const span = document.createElement('span');
+            if (i === 0) span.classList.add('active');
+            span.addEventListener('click', () => goToSlide(i));
+            dotsContainer.appendChild(span);
+        }
+        dots = dotsContainer.querySelectorAll('span');
+    }
+
+    //dep
+    trackDept = document.getElementById('carouselTrackDept');
+    if (trackDept) {
+        totalDept = trackDept.children.length;
+    }
+});
+
+// actualites
 function moveCarousel(dir) {
-    currentSlide = (currentSlide + dir + total) % total;
+    currentSlide = (currentSlide + dir + totalSlides) % totalSlides;
     updateCarousel();
 }
- 
 function goToSlide(index) {
     currentSlide = index;
     updateCarousel();
 }
- 
 function updateCarousel() {
-    if (!track) {
-        return;
-    }
-    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+    if (!track) return;
+    track.style.transform = `translateX(-${currentSlide * (ITEMS_PER_SLIDE * 20)}%)`;
     dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+}
+
+// equipe
+function moveCarouselDept(dir) {
+    currentSlideDept = (currentSlideDept + dir + totalDept) % totalDept;
+    updateCarouselDept();
+}
+function updateCarouselDept() {
+    if (!trackDept) return;
+    trackDept.style.transform = `translateX(-${currentSlideDept * 100}%)`;
 }
 
 function toggleMenu() {

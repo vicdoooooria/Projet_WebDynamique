@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
     <link rel="stylesheet" type="text/css" href="style.css" version="1.0">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>  <!-- http://localhost/Projet_WebDynamique/php/accueil.php -->
     <?php include("header.php");?>
@@ -58,10 +57,7 @@
                 <button onclick="moveCarousel(-1)">&#8592;</button>
                 <button onclick="moveCarousel(1)">&#8594;</button>
             </div>
-            <div class="carousel-dots" id="carouselDots">
-                <span class="active" onclick="goToSlide(0)"></span>
-                <span onclick="goToSlide(1)"></span>
-            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
         </div>
     </section>
     </section>
@@ -97,5 +93,6 @@
         </ul>
     </section>
     <?php include("footer.php");?>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

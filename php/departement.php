@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Département</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
@@ -13,21 +12,20 @@
     <?php include("formations.php");?>
     <section>
     <?php include("equipe.php");?>
-    <h2>Carrousel</h2>
-<div class="carousel-container">
-    <div class="carousel-track" id="carouselTrack">
-        <?php foreach ($professeurs as $index => $professeur): ?>
-            <div class="carousel-slide" data-index="<?= $index ?>">
-                <img src="../img/<?= $professeur['image'] ?>" alt="<?= $professeur['nom'] ?>" onerror="this.src='img/default.jpg'">
-                <p><?= $professeur['nom'] ?></p>
-            </div>
-        <?php endforeach; ?>
+    <h2>Equipe enseignante</h2>
+    <div class="carousel-wrapper">
+        <div class="carousel-track" id="carouselTrackDept">
+            <?php foreach ($professeurs as $index => $professeur): ?>
+                <div class="carousel-slide" data-index="<?= $index ?>">
+                    <img src="../img/<?= $professeur['image'] ?>" alt="<?= $professeur['nom'] ?>" onerror="this.src='img/default.jpg'">
+                    <p><?= $professeur['nom'] ?></p>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <div class="carousel-controls">
+            <button onclick="moveCarouselDept(-1)">&#8592;</button>
+            <button onclick="moveCarouselDept(1)">&#8594;</button>
     </div>
-    <div class="carousel-buttons">
-        <button onclick="moveSlide(-1)">Précédent</button>
-        <button onclick="moveSlide(1)">Suivant</button>
-    </div>
-</div>
 
 <script>
         // On récupère la piste et toutes les slides
@@ -85,7 +83,8 @@
     <?php include ("message.php");?>
     <?php include("basededonne.php");?>
     <input type="button" value="Réinitialiser la base">
-    <?php include("footer.php");?>
     </section>
+    <?php include("footer.php");?>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

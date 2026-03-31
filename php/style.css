@@ -636,3 +636,72 @@ border-radius: 20px;
 .faq-question :hover {
     background-color: #163d7a;
 }
+
+/* Style spécifique pour le formulaire de réservation */
+.reservation-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-container h1 {
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+
+.reservation-container .form-group {
+    margin-bottom: 20px;
+}
+
+.reservation-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #283593;
+    font-size: 1rem;
+}
+
+.reservation-container input[type="text"],
+.reservation-container input[type="email"],
+.reservation-container input[type="password"],
+.reservation-container input[type="date"],
+.reservation-container select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d1d9e6;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.reservation-container input[type="text"]:focus,
+.reservation-container input[type="email"]:focus,
+.reservation-container input[type="password"]:focus,
+.reservation-container input[type="date"]:focus,
+.reservation-container select:focus {
+    border-color: #5c6bc0;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.2);
+}
+
+.reservation-container button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation-container button[type="submit"]:hover {
+    background-color: #3949ab;
+}

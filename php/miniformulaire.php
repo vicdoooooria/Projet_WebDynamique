@@ -4,14 +4,12 @@
             <form id="contactForm" method="POST" action="form.php">
                 <div class="form-group">
                     <label>Genre</label>
-                    <div>
+                        <label for="male">HOMME</label>
                         <input type="radio" id="male" name="gender" value="male">
-                        <label for="male">Homme</label>
+                        <label for="female">FEMME</label>
                         <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Femme</label>
+                        <label for="autre">AUTRES</label>
                         <input type="radio" id="autre" name="gender" value="autre">
-                        <label for="autre">Autre</label>
-                    </div>
                 </div>
 
                 <div class="form-group">

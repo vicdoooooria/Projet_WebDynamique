@@ -8,13 +8,14 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+    <section>
     <?php include("header.php");?>
     <?php include("miniformulaire.php");?>
     <?php
         if(isset($_POST['nom'])){   
             echo '<h2> Résumé de votre permanence</h2>' ;
 
-            echo '<p><strong>Nom :</strong> '.$_POST['gender'].'</p>';
+            echo '<p><strong>Genre :</strong> '.$_POST['gender'].'</p>';
             echo '<p><strong>Mot de passe :</strong> '.$_POST['nom'].'</p>';
             echo '<p><strong>Role :</strong> '.$_POST['email'].'</p>';
             echo '<p><strong>Email :</strong> '.$_POST['contact_date'].'</p>';
@@ -23,7 +24,6 @@
         }
     ?>
     <?php include ("message.php");?>
-    <section>
         <h2>Où sommes nous ?</h2>
         <h3>Trouvez nous dans deux villes en France !</h3>
         <ul class="localisation">
@@ -43,8 +43,7 @@
                 </ul>
             </li>
         </ul>
-    </section>
-    <section>
+        <div>
         <h2>Plan d'accès</h2>
         <h3>Carte Paris</h3>
         <!-- carte Google Maps -->
@@ -52,6 +51,7 @@
         <h3>Carte Bordeaux</h3>
         <!-- carte Google Maps -->
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.8857044565334!2d-0.5617589670903873!3d44.86558179022315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527262e930981%3A0xf0bb43d82fd2d407!2sEfrei%20Bordeaux%20-%20Panth%C3%A9on-Assas%20University%20Paris%20II!5e0!3m2!1sen!2sfr!4v1774431884373!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+        </div>
+        </section>
     <?php include("footer.php");?>
 </body>

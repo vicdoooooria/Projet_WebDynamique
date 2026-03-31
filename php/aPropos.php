@@ -18,13 +18,17 @@
     <section id="equipe">
         <h1>Notre équipe</h1>
         <p>Voici les membres de notre équipe :</p>
-        <ul>
+        <ul class="equipe">
             <li>
                 Victoria ESPINOZA WILCHEZ
                 <img src="../img/1757273834982.jpg" alt="photo de profil de Victoria Espinoza Wilchez">
-                <ul>
+                <ul class="infos">
                     <li>Étudiante en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
-                    <li>Passionnée par le développement web et la création de projets innovants. J’espère pouvoir développer mes compétences dans ce domaine au sein de l’Efrei.</li>
+                    <li>Passionnée par le développement web et la création de projets innovants. 
+                        J’espère pouvoir développer mes compétences dans ce domaine au sein de l’Efrei.
+                        Mes centres d’intérêts sont variés, allant de la programmation aux bases de données, en passant par l’intelligence artificielle. 
+                        Je suis également très intéressée par les nouvelles technologies et les tendances émergentes dans le domaine de l’informatique.</li>
+                    </li>
                     <li><a href="https://www.linkedin.com/in/victoria-espinoza-wilchez-0a9219383/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/vicdoooooria">Profil GitHub</a></li>
                 </ul>
@@ -32,7 +36,7 @@
             <li>
                 Julien GOUTELLE
                 <img src="../img/1769955458417.jpg" alt="photo de profil de Julien Goutelle">
-                <ul>
+                <ul class="infos">
                     <li>Étudiant en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
                     <li>Actuellement étudiant à l'Efrei dans un Bachelor en Science du Numérique et de l'Ingénierie.
                         J'ai acquis plusieurs compétences théoriques et pratiques : C#, SQL, Javascript, Debian, Javascript.
@@ -45,7 +49,7 @@
             <li>
                 Rafaël ISLAM
                 <img src="../img/1757965564687.jpg" alt="photo de profil de Rafaël Islam">
-                <ul>
+                <ul class="infos">
                     <li>Étudiant en 1ère année de Bachelor Ingénierie et Numérique à l'Efrei Paris</li>
                     <li>Oui !</li>
                     <li><a href="https://www.linkedin.com/in/rafa%C3%ABl-islam-52526a32b/">Profil LinkedIn</a></li>
@@ -54,7 +58,7 @@
             </li>
         </ul>
         <br>
-        <p><b>Voulez-vous en savoir plus sur nous ?</b> N'hésitez pas à nous contacter via notre <b><a href="form.php">formulaire de contact</a> !</b></p>
+        <p id="contact"><b>Voulez-vous en savoir plus sur nous ?</b> N'hésitez pas à nous contacter via notre <b><a href="form.php">formulaire de contact</a> !</b></p>
     </section>
     <?php include("footer.php");?>
 </body>

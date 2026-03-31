@@ -12,7 +12,7 @@
             <div class="form-group">
                 <label for="password">Mot de passe</label>
                 <!-- name="password" ajouté pour que $_POST['password'] fonctionne -->
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" required> // ne pas rajouter name="password"
             </div>
 
             <div class="form-group">

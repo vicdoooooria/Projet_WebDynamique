@@ -58,7 +58,7 @@
             </li>
         </ul>
         <br>
-        <p id="contact"><b>Voulez-vous en savoir plus sur nous ?</b> N'hésitez pas à nous contacter via notre <b><a href="form.php">formulaire de contact</a> !</b></p>
+        <h3 id="contact"><b>Voulez-vous en savoir plus sur nous ?</b> N'hésitez pas à nous contacter via notre <b><a href="form.php">formulaire de contact</a> !</b></h3>
     </section>
     <?php include("footer.php");?>
 </body>

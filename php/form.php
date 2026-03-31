@@ -9,35 +9,20 @@
 </head>
 <body>
     <?php include("header.php");?>
-    <section>
-        <fieldset>
-            <h1>Formulaire de contact</h1>
-            <form>
-                <input type="radio" name="gender" value="male">
-                <label for="male">Homme</label>
-                <input type="radio" name="gender" value="female">
-                <label for="female">Femme</label>
-                <input type="radio" name="gender" value="autre">
-                <label for="autre">Autre</label>
-                <label>Nom</label>
-                <input type="text" name="name">
-                <label>Email</label>
-                <input type="email" name="email">
-                <label>Date de contact</label>
-                <input type="date" name="contact_date">
-                <label>Sujet</label>
-                <select name="subject">
-                    <option value="general">Général</option>
-                    <option value="partnership">Partenariat</option>
-                    <option value="feedback">Feedback</option>
-                    <option value="other">Autre</option>
-                </select>
-                <label>Message</label>
-                <textarea name="message"></textarea>
-                <input type="button" value="Envoyer">
-            </form>
-        </fieldset>
-    </section>
+    <?php include("miniformulaire.php");?>
+    <?php
+        if(isset($_POST['nom'])){   
+            echo '<h2> Résumé de votre permanence</h2>' ;
+
+            echo '<p><strong>Nom :</strong> '.$_POST['gender'].'</p>';
+            echo '<p><strong>Mot de passe :</strong> '.$_POST['nom'].'</p>';
+            echo '<p><strong>Role :</strong> '.$_POST['email'].'</p>';
+            echo '<p><strong>Email :</strong> '.$_POST['contact_date'].'</p>';
+            echo '<p><strong>Classe :</strong> '.$_POST['subject'].'</p>';
+            echo '<p><strong>Date :</strong> '.$_POST['message'].'</p>';
+        }
+    ?>
+    <?php include ("message.php");?>
     <section>
         <h2>Où sommes nous ?</h2>
         <h3>Trouvez nous dans deux villes en France !</h3>

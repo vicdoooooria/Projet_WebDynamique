@@ -20,16 +20,12 @@ function updateCarousel() {
     dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('menu-button');
-    const header = document.querySelector('header');
-
-    if (btn && header) {
-        btn.addEventListener('click', () => {
-            header.classList.toggle('open');
-        });
+function toggleMenu() {
+    const header = document.getElementById('header');
+    if (header) {
+        header.classList.toggle('hidden');
     }
-});
+}
 
 async function sendMessage() {
     let input = document.getElementById("userInput");

@@ -27,7 +27,6 @@
                         J’espère pouvoir développer mes compétences dans ce domaine au sein de l’Efrei.
                         Mes centres d’intérêts sont variés, allant de la programmation aux bases de données, en passant par l’intelligence artificielle. 
                         Je suis également très intéressée par les nouvelles technologies et les tendances émergentes dans le domaine de l’informatique.</li>
-                    </li>
                     <li><a href="https://www.linkedin.com/in/victoria-espinoza-wilchez-0a9219383/">Profil LinkedIn</a></li>
                     <li><a href="https://github.com/vicdoooooria">Profil GitHub</a></li>
                 </ul>

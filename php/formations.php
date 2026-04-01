@@ -1,6 +1,6 @@
 <?php ?>
 
-    <section classe="table-des-matieres">
+    <section class="table-des-matieres">
     <ul>
         <li><a href="#section1">Présentation Générale</a></li>
         <li><a href="#section2">Programme Pex et Expert</a></li>
@@ -15,13 +15,12 @@
         </p>
     <h2> Programmes par niveau (Détails des formations spécifiques) :</h2>
     <h3 id="section2"> Programme PEX et Expert</h3>
-    <h4>Bachelor Ingénierie et Numérique (renommée Bachelor Informatique) -- Grade de Licence</h3>
+    <h4>Bachelor Ingénierie et Numérique (renommée Bachelor Informatique) -- Grade de Licence</h4>
         <p>
             Le Bachelor Informatique de l’Efrei forme des développeurs polyvalents capable d’opérer aussi bien en tant que Fullstack, DevOps, Back End ou Front End. Ses diplômés peuvent travailler aussi bien au sein d’une association que d’une grande ESN.
         </p>
     <h5> Détail du programme</h5>
-        <p>
-            Ce cycle de trois ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur appliquée au monde professionnel.
+        <p>Ce cycle de trois ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur appliquée au monde professionnel.</p>
             <ul>
                 <li>Sciences appliquées, langues et communication</li>
                 <li>Pôle Professionnel et initiation à la recherche</li>
@@ -30,25 +29,21 @@
                 <li>Développement applications Web et Mobile</li>
                 <li>Modules de spécialisation et Learning XP</li>
             </ul>
-        </p>
     <h4>Bachelor Cybersécurité et Réseaux -- Grade Licence</h4>
         <p>
             Cette formation prépare les étudiants à concevoir et déployer des stratégies de sécurité des systèmes d’informations qui préviennent efficacement les menaces cyber et y répondent de manière adaptée.
         </p>
     <h5> Détail du programme</h5>
-        <p>
-            Ce cycle de trois ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur appliquée au monde professionnel.
+        <p>Ce cycle de trois ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur appliquée au monde professionnel. </p>
             <ul>
                 <li>Réseaux, Systèmes et Cybersécurité</li>
                 <li>Réseaux et Systèmes</li>
                 <li>Informatique et Systèmes d'information</li>
                 <li>Science appliqués, Langue et Communication</li>
             </ul>
-        </p>
     <h3 id="section3"> Programme Grande Ecole</h3>
     <h4>Prépas Intégrés</h4>
-        <p>
-            Ce cycle en deux ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur.
+        <p>Ce cycle en deux ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur.</p>
             <ul>
                 <li>1re année de Prépa Scientifique</li>
                 <li>1re année de Prépa Scientifique en anglais</li>
@@ -56,18 +51,14 @@
                 <li>1re année de Prépa Bio & Numérique</li>
                 <li>1re année de Prépa PLUS</li>
             </ul>
-        </p>
     <h4>Cycle Ingénieur</h4>
-        <p>
-            Cette année de tronc commun se compose d’un semestre à l’international dans le cadre de la mobilité étudiante et d’un semestre de cours à Paris. À son issue, les élèves peuvent choisir une des 13 majeures proposées au sein des 4 filières de l’école en vue de se spécialiser dans un domaine précis du numérique.
+        <p>Cette année de tronc commun se compose d’un semestre à l’international dans le cadre de la mobilité étudiante et d’un semestre de cours à Paris. À son issue, les élèves peuvent choisir une des 13 majeures proposées au sein des 4 filières de l’école en vue de se spécialiser dans un domaine précis du numérique.</p>
             <ul>
                 <li>Filière Information Technology</li>
                 <li>Filière Sécurité et Réseaux</li>
                 <li>Filière Data Science</li>
                 <li>Filière Système embarqués</li>
             </ul>
-        </p>
-
 <script>
         // Défilement fluide
     document.querySelectorAll('.table-des-matieres a').forEach(anchor => {

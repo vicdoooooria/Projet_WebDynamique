@@ -25,6 +25,7 @@
         <div class="carousel-controls">
             <button onclick="moveCarouselDept(-1)">&#8592;</button>
             <button onclick="moveCarouselDept(1)">&#8594;</button>
+        </div>
     </div>
 <script type="text/javascript" src="script.js"></script>
 <script>

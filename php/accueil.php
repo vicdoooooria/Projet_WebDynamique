@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
-    <link rel="stylesheet" type="text/css" href="style.css" version="1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>  <!-- http://localhost/Projet_WebDynamique/php/accueil.php -->
     <?php include("header.php");?>
@@ -59,7 +59,6 @@
             </div>
             <div class="carousel-dots" id="carouselDots"></div>
         </div>
-    </section>
     </section>
     <section>
         <h2>Avis des étudiants</h2>

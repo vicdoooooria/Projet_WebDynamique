@@ -15,11 +15,11 @@
             echo '<h2> Résumé de votre permanence</h2>' ;
 
             echo '<p><strong>Genre :</strong> '.$_POST['gender'].'</p>';
-            echo '<p><strong>Mot de passe :</strong> '.$_POST['nom'].'</p>';
-            echo '<p><strong>Role :</strong> '.$_POST['email'].'</p>';
-            echo '<p><strong>Email :</strong> '.$_POST['contact_date'].'</p>';
-            echo '<p><strong>Classe :</strong> '.$_POST['subject'].'</p>';
-            echo '<p><strong>Date :</strong> '.$_POST['message'].'</p>';
+            echo '<p><strong>Nom :</strong> '.$_POST['nom'].'</p>';
+            echo '<p><strong>Email :</strong> '.$_POST['email'].'</p>';
+            echo '<p><strong>Date de contact :</strong> '.$_POST['contact_date'].'</p>';
+            echo '<p><strong>Sujet :</strong> '.$_POST['subject'].'</p>';
+            echo '<p><strong>Message :</strong> '.$_POST['message'].'</p>';
         }
     ?>
     <?php include ("message.php");?>

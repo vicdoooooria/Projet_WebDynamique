@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A propos</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <?php include("header.php");?>
@@ -61,5 +60,6 @@
         <h3 id="contact"><b>Voulez-vous en savoir plus sur nous ?</b> N'hésitez pas à nous contacter via notre <b><a href="form.php">formulaire de contact</a> !</b></h3>
     </section>
     <?php include("footer.php");?>
+    <script type="text/javascript" src="script.js"></script>
 </body>
     

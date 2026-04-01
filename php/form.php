@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de contact</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <section>
@@ -54,4 +53,5 @@
         </div>
         </section>
     <?php include("footer.php");?>
+    <script type="text/javascript" src="script.js"></script>
 </body>

@@ -19,7 +19,7 @@ if ($conn->query($sql_db) === TRUE) {
 // 3. Sélection de la base
 $conn->select_db($dbname);
 
-// 4. Réinitialisation si demandée
+/* // 4. Réinitialisation si demandée
 if (isset($_POST['reset'])) {
     $conn->query("SET FOREIGN_KEY_CHECKS = 0");
     $conn->query("TRUNCATE TABLE reservations");
@@ -181,4 +181,4 @@ if ($result && $result->num_rows > 0) {
     }
     echo "</table>";
 } else {
-    echo "<p>Aucune réservation pour l'instant.</p>";
+    echo "<p>Aucune réservation pour l'instant.</p>"; */

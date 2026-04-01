@@ -26,7 +26,8 @@
             <button onclick="moveCarouselDept(-1)">&#8592;</button>
             <button onclick="moveCarouselDept(1)">&#8594;</button>
     </div>
-
+    <?php include("footer.php");?>
+<script type="text/javascript" src="script.js"></script>
 <script>
         // On récupère la piste et toutes les slides
         var piste  = document.getElementById("piste");
@@ -82,9 +83,7 @@
     ?>
     <?php include ("message.php");?>
     <?php include("basededonne.php");?>
-    <input type="button" value="Réinitialiser la base">
+    <input type="button" value="Réinitialiser la base" onclick="resetDatabase()">
     </section>
-    <?php include("footer.php");?>
-    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

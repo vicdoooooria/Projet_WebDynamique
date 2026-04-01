@@ -79,7 +79,7 @@
     </section>
     <section class="chiffres-cles">
         <h2>Chiffres clés</h2>
-        <ul class="chiffres">
+        <ul>
             <li>Ouverte depuis 1936</li>
             <li>Plus de 2000 étudiants</li>
             <li>16000 alumni</li>

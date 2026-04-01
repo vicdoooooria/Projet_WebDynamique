@@ -1,5 +1,6 @@
 // Confirmation visuelle à la soumission du formulaire
-document.getElementById('reservationForm').addEventListener('submit', function (event) {
+const form = document.getElementById('reservationForm');
+if (form) form.addEventListener('submit', function(event) {
     // On laisse le POST se faire normalement, on affiche juste une alerte avant
     const nom     = document.getElementById('nom').value;
     const email   = document.getElementById('email').value;

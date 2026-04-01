@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <section>
     <?php include("header.php");?>
+    <section>
     <?php include("miniformulaire.php");?>
     <?php
         if(isset($_POST['nom'])){   
@@ -55,3 +55,4 @@
     <?php include("footer.php");?>
     <script type="text/javascript" src="script.js"></script>
 </body>
+</html>

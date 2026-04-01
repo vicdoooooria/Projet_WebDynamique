@@ -37,7 +37,7 @@
         "answer" : "De rien ! N'hésitez pas à me poser d'autres questions si vous en avez."
     },
     {
-        "question" : ["au revoir", "salut", "bye", "goodbye"],
+        "question" : ["au revoir", "bye", "goodbye"],
         "answer" : "Au revoir ! Passez une bonne journée !"
     },
     {

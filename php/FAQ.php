@@ -36,7 +36,7 @@
             </div>
 
             <div>
-                <button class="faq-question" onclick="toggle(this)">Qu'est-ce que le concours Puissance Apha ?</button>
+                <button class="faq-question" onclick="toggle(this)">Qu'est-ce que le concours Puissance Alpha ?</button>
                 <p style="display:none;">C'est un concours commun permettant d'intégrer plusieurs écoles d'ingénieurs, dont l'EFREI.</p>
             </div>
 

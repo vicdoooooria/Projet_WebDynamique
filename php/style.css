@@ -2,10 +2,13 @@ body {
     text-align: justify;
     background-color: rgb(126, 181, 240);
     margin: 10px;
-    padding: 10px;
     font-family: Book Antiqua, serif;
     font-size: 25px;
     min-height: 100vh;
+    background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 40px;
 }
 
 footer {
@@ -201,15 +204,6 @@ nav a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Corps de page */
-body {
-    font-family: 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #eef2f7, #dfe9f3);
-    color: #2c3e50;
-    line-height: 1.6;
-    padding: 40px;
 }
 
 /* Section principale */
@@ -591,17 +585,15 @@ h4 + p:hover {
 }
 
 .table-des-matieres {
-    left: 20px; /* Distance depuis le bord gauche de l'écran */
+    left: 20px;
     top: 100px; /* Distance depuis le haut de l'écran (ajustez selon votre en-tête) */
     width: 250px; /* Largeur de la table des matières */
-    background-color: #f8f9fa; /* Fond clair pour une meilleure lisibilité */
+    background-color: #f8f9fa; 
     padding: 1rem;
     border-radius: 8px; /* Coins arrondis */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le détachement */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 10; /* Assure que la table des matières reste au-dessus des autres éléments */
     margin-left: 290px; /* Largeur de la table des matières + marge */
-    position: sticky;
-    top: 0;
     border-bottom: 2px solid #ccc;
 }
 
@@ -656,7 +648,6 @@ body > div {
 
 #userInputV2 {
 width: 80%;
-border-radius: 20px;
 border-radius: 20px;
 }
 

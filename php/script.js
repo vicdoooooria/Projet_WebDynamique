@@ -44,7 +44,7 @@ function goToSlide(index) {
 }
 function updateCarousel() {
     if (!track) return;
-    track.style.transform = `translateX(-${currentSlide * (ITEMS_PER_SLIDE * 20)}%)`;
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;;
     dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
 }
 

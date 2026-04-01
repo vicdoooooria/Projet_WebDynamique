@@ -1,5 +1,3 @@
-<?php ?>
-
     <section class="table-des-matieres">
     <ul>
         <li><a href="#section1">Présentation Générale</a></li>
@@ -24,7 +22,7 @@
             <ul>
                 <li>Sciences appliquées, langues et communication</li>
                 <li>Pôle Professionnel et initiation à la recherche</li>
-                <li>Spécification des besoins et conduite de prohet numérique</li>
+                <li>Spécification des besoins et conduite de projet numérique</li>
                 <li>Information et systèmes d'information</li>
                 <li>Développement applications Web et Mobile</li>
                 <li>Modules de spécialisation et Learning XP</li>

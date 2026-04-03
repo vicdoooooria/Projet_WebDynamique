@@ -1,8 +1,9 @@
 # Projet_WebDynamique
 Membres de l’équipe : Victoria ESPINOZA WILCHEZ, Julien GOUTELLE, Rafaël ISLAM
 
-Lien Miro (Maquette et schéma) : https://miro.com/app/board/uXjVG9IuE7E=/?share_link_id=334929393237
+Lien Miro (Maquette et schéma) : https://miro.com/app/board/uXjVG9IuE7E=/?share_link_id=334929393237 (veuillez voir la maquette en suivant le lien ou dans le dossier img)
 Lien Github :https://github.com/vicdoooooria/Projet_WebDynamique
+![Maquette Miro](Projet web.pdf)
 
 # Présentation du Projet — Site Vitrine du Département Informatique de l’Efrei
 
